@@ -1,0 +1,115 @@
+---
+title: Genes Associated with Cardiovascular Risk in Anxiety/Stress Disorders
+author: Anish Shah
+date: September 25, 2019
+fontsize: 10pt
+bibliography: neurocardiology.bib
+csl: american-medical-association.csl
+link-citations: yes
+output: 
+  beamer_presentation:
+    colortheme: "beaver"
+    slide_level: 2
+---
+
+# Introduction
+
+## Relationship to genetics
+
+- Brain-heart interaction in psychological disorders not studied thoroughly
+- GWAS studies not focused on brain-heart interactions
+- Could be used to identify at-risk individuals
+
+## Methods
+
+- NCBI Phenotype-Genotype integration system (merges NHGRI, dbGaP, OMIM, eQTL, and dbSNP)
+- MeSH term search for phenotype identification: arrhythmia, CAD, depression, anxiety, psychological stress, PTSD
+- significance threshold of p < 1e-5 for gene selection
+- script to find overlapping phenotypes and genotypes
+- manual annotation of results
+
+# Results
+
+## Overview 
+
+- __1095__ genes initially identified
+- data included gene location, chromosome, location, and relevant studies
+- identified 41 genes of appropriate phenotype-genotype overlap
+- further annotated results by significance of relationship/overlap and primary literature
+
+## BIN1
+
+- BIN1 (chromosome 2, rs10207628),
+- bridging integrator for synaptic vesicle endocytosis
+- associated with SCD and depression, expressed in brain
+- regulates calcium ion transport, cardiac AP, neuronal differentiation
+- locates to cardiac T-tubules, releases microparticles[@Xu2017; @Hong2010]
+- assocated with tau protein in dementia[@Zhou2014]
+
+## PHARCTR1
+
+- PHARCTR1 (chromosome 6, rs4615376) 
+- phosphatase and actin regulator of endothelial cell survival 
+- associated with CAD and depression and expressed in the brain and heart
+- migraine pathogenesis[@Anttila2013] and susceptibility for CAD in type 2 diabetes mellitus[@Qi2011]
+
+## CNNM2
+
+- CNNM2 (chromosome 10, rs12413409), 
+- divalent metal cation transport mediator
+- associated with CAD and depression and expressed in the kidneys 
+- magnesium ion homeostasis and transmembrane transport
+- common among major psychiatric disorders[@Smoller2013]
+- susceptibility locus in CAD[@Schunkert2011] and increases the risk of hypertension[@Liu2018]
+
+## PRTFDC1
+
+- PRTFDC1 (chromosome 10, rs11014306) 
+- phosphoribosyl transferase domain protein 
+- associated with SCD and anxiety/stress disorders and is expressed in the brain and adrenal glands 
+- functions as part of purine salvage pathways 
+- cardiometabolic profile in heart failure[@Yu2013]
+- predictor of combat stress vulnerability in the development of PTSD[@Nievergelt2015]
+
+## CDH13
+
+- CDH13 (chromosome 16, rs8055236)
+- cadherin protein 
+- associated with CAD and depression and is expressed in the brain and heart
+- functions in protein signal transduction, endothelial cell migration, and is protective against apoptosis
+- provides resistance to atherosclerosis, and is part of neural differentiation
+- role in the cardioprotective effects of sleep and in incident coronary artery disease[@Li2018] 
+- identified in hyperactivity, impulsivity, violent behavior, and extraverted personality traits[@Smoller2013; @Tiihonen2015; @Terracciano2010]
+
+## BMP2
+
+- BMP2 (chromosome 20, rs6117734)
+- bone morphogenetic transforming growth factor-beta protein 
+- associated with CAD and depression and is expressed broadly 
+- functions as part of cardiac epithelial transition and cardiomyocyte differentiation
+- associated with depressive traits and stressful life events[@Ikeda2016] 
+- also in cardiac progenitor cell differentiation[@Bylund2017] and atherosclerosis in type 2 diabetes mellitus[@Zhang2015]
+
+## Additional genes identified {.allowframebreaks}
+
+- RORA (chromosome 15, rs12912233) 
+- GRIN2A (chromosome 16, rs8058295) 
+- FAM155A (chromosome 13, rs1509091) 
+- ENOX1 (chromosome 13, rs17538444) 
+- QKI (chromosome 6, rs7756185)
+- EGFLAM (chromosome 5, rs2561805)
+- SNX7 (chromosome 1, rs11581859) 
+- ACVR1 (chromosome 2, rs35806662)
+- MYL10 (chromosome 7, rs1722229) 
+- KSR2 (chromosome 12, rs7973260) 
+- PARVA (chromosome 11, rs7120489) 
+- SNCA (chromosome 4, rs356228) 
+- SORCS3 (chromosome 10, rs7074335) 
+- MAML3 (chromosome 4, rs1877075)
+- DCLK2 (chromosome 4, rs150175932) 
+- LPPR5 (chromosome 1, rs1329461)
+- Pseudogenes: RNA5SP87, RPL26P5, RNA5SP404, HSPE1P20, MTCO3P1, RPL6P18, and MTCL1P1 
+
+# References 
+
+## References {.allowframebreaks} 
